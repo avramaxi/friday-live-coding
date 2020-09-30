@@ -1,0 +1,83 @@
+.ico {
+    display: inline-block;
+    cursor: pointer;
+}
+.icon_play {
+    background-image: url("../../img/icon/play.svg");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
+.icon-square {
+    width: 50px;
+    height: 50px;
+    border-radius: 19px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    &_violet {
+        background-color: $color-violet;
+    }
+    &_yellow {
+        background-color: $color-yellow;
+    }
+    &_red {
+        background-color: $color-red;
+    }
+    &_blue {
+        background-color: $color-blue;
+    }
+}
+.ico_arrow {
+    background-image: url("../../img/icon/tool-1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 13px;
+    height: 18px;
+}
+.ico_mustache {
+    background-image: url("../../img/icon/tool-2.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 18px;
+}
+.ico_heart {
+    background-image: url("../../img/icon/tool-3.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 18px;
+    height: 18px;
+}
+.ico_clock {
+    background-image: url("../../img/icon/tool-4.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 15px;
+    height: 18px;
+}
+// Contant-us icons
+.icon-circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-bottom: -4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    &_light {
+        background-color: $color-light;
+    }
+}
+.icon_phone {
+    background-image: url("../../img/icon/phone.svg");
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 11px;
+}
+.icon_letter {
+    background-image: url("../../img/icon/letter.svg");
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 7px;
+}

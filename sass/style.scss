@@ -1,0 +1,32 @@
+// Normalize
+@import "../node_modules/normalize-scss/sass/normalize"; 
+@include normalize();
+
+// Abstract
+@import "abstract/constants";
+@import "abstract/placeholder";
+@import "abstract//mixin";
+
+// Base
+@import "base/base";
+@import "base/button";
+@import "base/logo";
+@import "base/icons";
+@import "base/tags";
+
+// Layouts
+@import "layout/wrapper";
+@import "layout/header";
+@import "layout/column";
+@import "layout/footer";
+
+// Cpmponents
+@import "component/contact-us";
+@import "component/about-us";
+@import "component/promo";
+@import "component/navigation";
+@import "component/tool";
+@import "component/strategies";
+@import "component/employee.scss";
+
+
